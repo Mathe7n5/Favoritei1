@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --base-color: white;
+    --base-bg: #a4c7c8;
+    --text-color: #2e2e2e;
+    --product-bg: #cccaca;
+    --btn-bg: #2e2e2e;
+    --btn-hover-bg: #240380;
+    --form-bg: #c6dedf;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--base-bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+.logo-register {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: var(--btn-hover-bg);
+}
+
+.welcome h2 {
+    margin-bottom: -20px;
+}
+
+.register {
+    border-radius: 20px;
+    border: 2px solid none;
+    padding: 15 50 50 50px;
+    width: fit-content;
+    background-color: var(--form-bg);
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+}
+
+.register .input-field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-field .register-box {
+    position: relative;
+    width: 50%;
+}
+
+.input-field {
+    margin: 13px 0;
+}
+
+.email, .name, .username, .password, .password-confirm {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .password {
+    margin-right: 15px;
+}
+
+.name input, .username input, .password input, .password-confirm input, .email input {
+    background-color: var(--base-color);
+    box-shadow: 20px 20px 60px var(--box-shadow-light), -5px -5px 60px var(--base-color);
+    border: none;
+    width: 620px;
+    height: 40px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border-radius: 1em;
+    margin-top: 5px;
+}
+
+.enter {
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.enter button {
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 100px;
+    background: var(--btn-bg);
+    color: var(--base-color);
+    font-weight: 300;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+}
+
+.enter button:hover {
+    background: var(--btn-hover-bg);
+}
+
+.enter button:active {
+    transform: scale(1.5);
+}
+
+input:focus {
+    outline: none;
+}
+
+
+

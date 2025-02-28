@@ -1,0 +1,143 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matheus Carvalho">
+  <title>Favoritei!</title>
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/suport-page.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+
+    <header>
+      <nav class="navbar">    
+        <div class="navbar-left">
+          <a href="index.html" class="logo">Favoritei!</a>
+        </div>
+  
+        <div class="navbar-center">
+          <img class="imagem-navbar" src="/assets/logo-alt2.png" alt=""/>
+        </div>
+      
+        <div id="menu-options" class="navbar-right">
+  
+          <button class="icon-btn login-btn" onclick="abrirLoginPage()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+              <path d="M480-428.7q60.26 0 102.39-42.13t42.13-102.39q0-60.26-42.13-102.11-42.13-41.84-102.39-41.84t-102.39 41.84q-42.13 41.85-42.13 102.11t42.13 102.39Q419.74-428.7 480-428.7ZM206.78-100.78q-44.3 0-75.15-30.85-30.85-30.85-30.85-75.15v-546.44q0-44.3 30.85-75.15 30.85-30.85 75.15-30.85h546.44q44.3 0 75.15 30.85 30.85 30.85 30.85 75.15v546.44q0 44.3-30.85 75.15-30.85 30.85-75.15 30.85H206.78Zm0-106h546.44v-58.44q-54-50.17-122.11-77.56T480-370.17q-83 0-151.11 27.95-68.11 27.96-122.11 78.13v57.31Z"/>
+            </svg>        
+          </button>
+      
+          <button class="icon-btn fav-btn" onclick="abrirFavoritos()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+              <path d="m479.43-94-71-63.87q-103.26-92.69-170.67-160.39-67.41-67.7-106.7-121.61Q91.78-493.78 76-539.48 60.22-585.17 60.22-634q0-102.48 68.37-171.13 68.37-68.65 170.84-68.65 51.44 0 97.87 19.74 46.44 19.73 82.13 56.91 35.7-37.18 82.14-56.91 46.43-19.74 97.86-19.74 102.48 0 171.42 68.65 68.93 68.65 68.93 171.13 0 48.26-15.5 93.96-15.5 45.69-55.06 99.32-39.57 53.63-107.26 121.61-67.7 67.98-171.52 161.24L479.43-94Z"/>
+            </svg>
+          </button>
+      
+          <button class="icon-btn sup-btn" onclick="abrirSuportePage()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+              <path d="M427-100.78v-106l329.04.56v-285.13q0-111.91-81.21-188.04-81.22-76.13-194.83-76.13-113.61 0-194.83 76.13-81.21 76.13-81.21 188.04l3.39 263.79h-56.39q-37.43 0-63.81-26.05-26.37-26.04-26.37-63.56v-89.61q0-21.41 9.94-40.27 9.93-18.86 27.8-31.56l.74-28.13q3.48-74.78 35.26-139 31.78-64.22 83.24-111.74 51.46-47.52 119.17-74.63 67.72-27.11 143.07-27.11t142.85 27.11q67.5 27.11 119.17 74.41 51.68 47.31 83.24 111.81 31.57 64.5 35.48 139.28l.74 27.13q18.43 11.26 28.09 30.39 9.65 19.13 9.65 40.26v93.7q0 23.63-8.81 45.19-8.8 21.55-28.93 33.38v30.34q0 43.74-30.85 74.59t-74.59 30.85H427ZM366.83-385.3q-18.18 0-30.53-12.3-12.34-12.3-12.34-29.91 0-17.62 12.3-29.97 12.29-12.35 30.47-12.35t30.53 12.3q12.35 12.3 12.35 29.92 0 17.61-12.3 29.96-12.3 12.35-30.48 12.35Zm226.44 0q-18.18 0-30.53-12.3-12.35-12.3-12.35-29.91 0-17.62 12.3-29.97 12.3-12.35 30.48-12.35t30.53 12.3q12.34 12.3 12.34 29.92 0 17.61-12.3 29.96-12.29 12.35-30.47 12.35Zm-353.4-91.96Q234-578.17 306.41-647.67q72.42-69.5 175.59-69.5 90.13 0 158.76 54.24 68.63 54.23 77.54 141.1-85.91-1-161.28-40.8t-117.5-114.46q-18.82 73.79-72.87 126.11-54.04 52.33-126.78 73.72Z"/>
+            </svg>              
+          </button>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+
+        <div class="logo">
+            <h1>Favoritei!</h1>
+        </div>
+
+        <div class="container-suporte">
+            <div class="suporte">
+                <div class="lado-esquerdo">
+                    <div class="sobre-mim">
+                        <div class="nome">
+                            <h1 class="question">Meu nome?</h1>
+                            <h3 class="answner">Eu me chamo Matheus de Carvalho.</h3>
+                        </div>
+                        <div class="curso">
+                            <h1 class="question">O que estou estudando?</h1>
+                            <h3 class="answner">Atualmente cursando Analise e Desenvolvimento de Sistemas (ADS).</h3>
+                        </div>
+                        <div class="porque">
+                            <h1 class="question">Porque eu desenvolvi esse site?</h1>
+                            <h3 class="answner">
+                                <p>Meu objetivo era testar meus conhecimentos, por mais básicos que ainda sejam.</p>
+                                <p>Agora que consegui fazer isso, quero aprimorá-los ainda mais, desenvolvendo outros projetos que tenho em mente.</p>
+                                <p>Se você deseja acompanhar meu trabalho ou saber mais sobre mim, confira minhas redes sociais abaixo!</p>
+                            </h3>
+                        </div>  
+                    </div>
+                    <div class="redes-sociais">
+                        <h1>Minhas redes sociais!</h1>
+                        <div class="buttons">
+                            <div class="twitter">
+                                <button class="btn-twitter" onclick="AbrirTwitter()">
+                                    <span>Twitter (X)</span>
+                                </button>
+                            </div>
+                            <div class="github">
+                                <button class="btn-github" onclick="AbrirGithub()">
+                                    <span>GitHub</span>
+                                </button>
+                            </div>
+                            <div class="linkedin">
+                                <button class="btn-linkedin" onclick="AbrirLinkedin()">
+                                    <span>Linkedin</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="lado-direito">
+                    <div class="contato">
+                        <h1 class="question">Achou algum problema? Gostou do meu trabalho ou quer passar um feedback?</h1>
+                        <h2>Entre em contato comigo! Ficarei feliz em ouvir.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section>
+            <ul>
+                <li class="github-btn">
+                    <a onclick="AbrirGithub()" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                      </svg>
+                    </a>
+                </li>
+                <li class="twitter-btn">
+                    <a onclick="AbrirTwitter()" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                      </svg>             
+                    </a>
+                </li>
+                <li class="linkidin-btn">
+                    <a onclick="AbrirLinkedin()" target="_blank">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                      </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img class="imagem" src="/assets/logo-alt2.png" alt="" />
+        </section>
+        <section>
+          <p class="dev-credits">© 2025 Favoritei!. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
+    <script src="scripts/header.js"></script>
+    <script src="scripts/social.js"></script>
+
+</body>

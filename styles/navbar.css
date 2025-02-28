@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root {
+  --base-color: white;
+  --base-bg: #a4c7c8;
+  --text-color: #2e2e2e;
+  --shadow: #807f7f;
+  --product-bg: #c6dedf;
+  --icon-hover-lang: #17a2b8;
+  --icon-hover-login: #7bdb91;
+  --icon-hover-fav: #a12626;
+  --icon-hover-sup: #fd7e14;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0a1229;
+  padding: 10px 20px;
+  z-index: 10;
+  height: 65px;
+  box-sizing: border-box;
+}
+
+.navbar-left, 
+.navbar-right, 
+.navbar-center {
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle, 
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icon-btn {
+  color: var(--base-color);
+  margin-left: 5px;
+}
+
+.icon-btn svg {
+  width: 32px;
+  height: 32px;
+}
+
+.lang-btn:hover svg path {
+  fill: var(--icon-hover-lang);
+  transition: all .3s;
+}
+
+.menu-toggle:hover svg {
+  fill: white;
+  transition: all .3s;
+}
+
+.login-btn:hover svg {
+  fill: var(--icon-hover-login);
+  transition: all .3s;
+}
+
+.fav-btn:hover svg {
+  fill: var(--icon-hover-fav);
+  transition: all .3s;
+}
+
+.sup-btn:hover svg {
+  fill: var(--icon-hover-sup);
+  transition: all .3s;
+}
+
+.navbar-right {
+  padding-right: 120px;
+}
+
+.navbar-left .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.navbar.scrolled {
+  background-color: var(--base-bg);
+  color: var(--base-color);
+}
+
+.navbar-center .imagem-navbar {
+  margin-top: 10px;
+  width: 84px;
+  height: auto; 
+}

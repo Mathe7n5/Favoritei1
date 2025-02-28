@@ -1,0 +1,230 @@
+@media (max-width: 768px) {
+
+    /* Navbar */
+
+    .navbar-center {
+        display: none;
+    }
+
+    .navbar-left {
+        margin-left: -120px;
+        font-size: 5vw;
+    }
+
+    .navbar-right {
+        margin-right: -120px;
+    }
+
+    
+    header .banner {
+        display: none;
+    }
+
+    header .banner-responsive {
+        display: flex;
+        width: 100%;
+    }
+
+    .avoid h1 {
+        font-size: 6vw;;
+    }
+
+    .btn-click {
+        box-shadow: none;
+      }
+
+    .btn-click svg {
+        fill: #e8eaed;
+    }
+
+    /* Footer */
+
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer .imagem {
+        display: none;
+    }
+
+    footer .dev-credits {
+        font-size: 3vw;
+    }
+      
+    /* Favoritei - Container */
+
+    .container {
+        padding: 20px;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    .container h1 {
+        font-size: 8vw;
+        margin-bottom: -10px;
+    }
+
+    .container h2 {
+        font-size: 5vw;
+    }
+
+    .form-group label {
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .form-group input, .form-group select {
+        padding: 16px;
+        font-size: 4vw;
+        margin-top: 0;
+    }
+
+    .add-button {
+        font-size: 4vw;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    /* Produtos - Container */
+
+    .product-container {
+        padding: 5vw;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .favoritar-mais h3 {
+        font-size: 6vw;
+        padding-left: 0;
+    }
+
+    .produtos-adicionados h2 {
+        text-align: center;
+        font-size: 6vw;
+        padding-left: 0;
+    }
+
+    .loja-nome {
+        font-size: 5vw;
+        font-weight: 500;
+        padding-left: 0;
+    }
+
+    .cards-container {
+        padding: 1vw;
+        margin-right: 2em;
+    }
+
+    .buy-btn {
+        padding: 2vw 9vw;
+        margin-right: 0;
+    }
+
+    .delete-btn {
+        padding: 2vw 5vw;
+        margin-left: 0;
+    }
+
+    .fix-btn {
+        padding: 2vw 9vw;
+        margin-left: 0;
+    }
+
+    .back-button {
+        font-size: 4vw;
+    }
+
+    /* Login - Container */
+
+    .login {
+        margin: 2vw;
+    }
+
+    .welcome h2 {
+        font-size: 6vw;
+    }
+
+    .welcome h3 {
+        font-size: 4vw;
+    }
+
+    .welcome a {
+        font-size: 4vw;
+    }
+
+    .email label {
+        font-size: 4vw;
+    }
+
+    .email input {
+        font-size: 4vw;
+    }
+
+    .password label {
+        font-size: 4vw;
+    }
+
+    .password input {
+        font-size: 4vw;
+    }
+
+    .enter-btn span {
+        font-size: 4vw;
+    }
+
+    /* Register - Container */
+
+    .name input, .username input, .password input, .password-confirm input, .email input {
+        font-size: 4vw;
+        width: 80vw;
+    }
+
+    .register {
+        margin: 10vw;
+    }
+
+    /* Suporte - Container */
+
+    .container-suporte {
+        margin: 5vw 3vw;
+    }
+
+    .question {
+        font-size: 8vw;
+    }
+
+    .answner {
+        font-size: 6vw;
+    }
+
+    .answner p {
+        margin-bottom: 0;
+    }
+
+    .porque .answner {
+        font-size: 5vw;
+    }
+
+    .redes-sociais h1 {
+        font-size: 8vw;
+    }
+
+    .btn-twitter, .btn-github, .btn-linkedin {
+        font-size: 4vw;
+    }
+
+    .lado-direito .question h1 {
+        font-size: 3vw;
+    }
+
+    .lado-direito .question h2 {
+        font-size: 2vw;
+    }
+}

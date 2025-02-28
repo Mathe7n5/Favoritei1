@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root {
+  --base-color: white;
+  --base-bg: #edeceb;
+  --text-color: #2e2e2e;
+  --shadow: #807f7f;
+  --product-bg: #cccaca;
+  --btn-bg: #2e2e2e;
+  --btn-hover-bg: #E10701;
+  --form-bg: #c6dedf;
+  --box-shadow-light: #c5c5c5;
+  --box-shadow-dark: #807f7f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--base-bg);
+}
+
+.avoid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+}
+
+.btn-click:hover svg {
+  transition: all .8s;
+  fill: #e8eaed;
+}
+
+.btn-click {
+  margin-bottom: 300px;
+  border-radius: 100px;
+  background: var(--btn-bg);
+  color: var(--base-color);
+  font-weight: 300;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 20px 20px 60px var(--shadow), -5px -5px 60px var(--base-color);
+  transition: all .5s;
+}
+
+.btn-click:hover {
+  color: var(--text-color);
+  font-weight: 500;
+  background: var(--btn-hover-bg);
+}
+
+.btn-click:active {
+  transform: scale(1.5);
+}
+
+.btn-click span {
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+.container {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  background-color: var(--form-bg);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto 70px auto;
+  box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+  margin-left: -40px;
+}
+
+.container h1, .container h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+.container h1 {
+  margin-bottom: -15px;
+  font-size: 2rem;
+}
+
+.form-group {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  animation: slide-in-blurred-bottom .1s cubic-bezier(.23,1,.32,1) both;
+}
+
+.form-group input, .form-group select {
+  background-color: var(--form-bg);
+  box-shadow: 20px 20px 60px var(--box-shadow-light), -5px -5px 60px var(--base-color);
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  border-radius: 1em;
+}
+
+.form-group select {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.form-group option {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.add-button {
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: var(--btn-bg);
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  transition: all .5s;
+  color: var(--base-color);
+  box-shadow: 20px 20px 60px var(--shadow), -20px -20px 60px var(--base-color);
+}
+
+.add-button:hover {
+  color: var(--text-color);
+  font-weight: 500;
+  background: var(--btn-hover-bg);
+}
+
+.add-button:hover svg circle {
+  fill: none;
+  stroke: var(--text-color);
+  transition: all .3s;
+}
+
+.add-button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: .3s ease-in-out;
+}
+
+.add-button:hover svg {
+  transform: translateX(10px);
+}
+
+.add-button:active {
+  transform: scale(1.5);
+}
+
+.error-message {
+  display: none;
+  color: #580101;
+  font-size: 24px;
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20px;
+}
+
+input:focus {
+  outline: none;
+}

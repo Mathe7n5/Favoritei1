@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root {
+  --base-color: white;
+  --base-bg: #a4c7c8;
+  --text-color: #2e2e2e;
+  --shadow: #807f7f;
+  --product-bg: #c6dedf;
+  --button-bg-1: #E10701;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--base-bg);
+}
+
+.avoid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+}
+
+.btn-click:hover svg {
+  transition: all .8s;
+  fill: #e8eaed;
+}
+
+.btn-click {
+  margin-bottom: 300px;
+  border-radius: 100px;
+  background: var(--text-color);
+  color: var(--base-color);
+  font-weight: 300;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 20px 20px 60px var(--shadow),
+  -5px -5px 60px #ffffff;
+  transition: all .5s;
+}
+
+.btn-click:hover {
+color: #000;
+font-weight: 500;
+background: var(--button-bg-1)
+}
+
+.btn-click:active {
+transform: scale(1.5)
+}
+
+.btn-click span {
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+
+ .product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: var(--base-bg); 
+    background: var(--product-bg);
+    border-radius: 16px;
+    padding: 0 75 20 50px;
+    margin: 50 0 50 0px;
+    box-shadow: 8px 16px 24px rgba(0,0,0, 0.08);
+}
+
+.produtos-adicionados {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .produtos-adicionados h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding-left: 20px;
+  }
+
+  
+  .favoritar-mais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .favoritar-mais h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .back-button {
+    margin-left: 10px;
+    margin-top: -10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: var(--text-color);
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    transition: all .5s;
+    color: #fff;
+    box-shadow: 5px 5px 100px var(--shadow)
+  }
+
+  .back-button:hover {
+    color: #000;
+    font-weight: 500;
+    background: var(--button-bg-1);
+  }
+
+  .back-button:hover svg circle {
+    fill: none;
+    stroke: black;
+    transition: all .3s;
+  }
+  
+  .back-button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: .3s ease-in-out;
+  }
+  
+  .back-button:hover svg {
+    transform: translateX(10px);
+  }
+  
+  .back-button:active {
+    transform: scale(1.5);
+  }
+
+  .loja-nome {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 8px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: 30px;
+    cursor: pointer;
+    padding-left: 20px;
+  }
+  
+  .loja-nome svg {
+    width: 20px; 
+    height: 20px;
+  }
+
+  .cards-container {
+    max-height: 1000px;
+    padding: 1rem; 
+    opacity: 1;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  }
+  
+  .cards-container.collapsed {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .card {
+    background-color: var(--product-bg); 
+    background: #fff;
+    border-radius: 16px;
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 16px;
+    box-shadow: 8px 16px 24px rgba(0,0,0, 0.08);
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin: 5px 0;
+    color: #555;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 12px; 
+    /* margin-right: -10px; */
+  }
+
+  .buy-btn {
+    background: var(--text-color);
+    color: #fff;
+    font-weight: 300;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    /* box-shadow: 20px 20px 60px var(--shadow),
+    -0px -0px 60px #ffffff; */
+    transition: all .5s;
+    padding: 10px 80px;
+    border-radius: 20px;
+    margin-right: -30px;
+  }
+
+  .buy-btn:hover {
+    color: #000;
+    font-weight: 500;
+    background: #0187e1;
+  }
+
+  .buy-btn:hover svg {
+    fill: var(--text-color);
+  }
+
+  .buy-btn:active {
+    transform: scale(1.1)
+  }
+
+  .fix-btn {
+    background: var(--text-color);
+    color: #fff;
+    font-weight: 300;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    /* box-shadow: 20px 20px 60px var(--shadow),
+    -20px -20px 60px #ffffff; */
+    transition: all .5s;
+    padding: 10px 40px;
+    border-radius: 20px;
+    
+  }
+
+  .fix-btn:hover {
+    color: #000;
+    font-weight: 500;
+    background: #e1d201;
+  }
+
+  .fix-btn:hover svg {
+    fill: var(--text-color);
+  }
+
+  .fix-btn:active {
+    transform: scale(1.1)
+  }
+
+  .delete-btn {
+    background: var(--text-color);
+    color: #fff;
+    font-weight: 300;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    /* box-shadow: 20px 20px 60px var(--shadow),
+    -20px -20px 60px #ffffff; */
+    transition: all .5s;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    margin-left: -30px;
+  }
+
+  .delete-btn:hover {
+    color: #000;
+    font-weight: 500;
+    background: var(--button-bg-1);
+}
+
+  .delete-btn:active {
+    transform: scale(1.1)
+  }
+
+  .delete-btn:hover svg {
+    fill: var(--text-color);
+  }
+
+.card.Amazon {
+  border-top: 10px solid #FF9900;
+}
+
+.card.Fast-Shop {
+  border-top: 10px solid #FF0000;
+}
+
+.card.Magazine-Luiza {
+  border-top: 10px solid #0000FF;
+}
+
+.card.Casas-Bahia {
+  border-top: 10px solid #0032C5;
+}
+
+.card.Shein {
+  border-top: 10px solid #000000;
+}
+
+.card.Americanas {
+  border-top: 10px solid #FF4500;
+}

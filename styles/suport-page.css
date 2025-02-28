@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --base-color: white;
+    --base-bg: #a4c7c8;
+    --text-color: #2e2e2e;
+    --product-bg: #cccaca;
+    --btn-bg: #2e2e2e;
+    --btn-hover-bg: #240380;
+    --form-bg: #c6dedf;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--base-bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+}
+
+.container-suporte {
+    border-radius: 20px;
+    border: 2px solid none;
+    padding: 20 50 50 50px;
+    width: fit-content;
+    background-color: var(--form-bg);
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+    margin-bottom: 80px;
+}
+
+.question {
+    margin-bottom: -10px;
+}
+
+.answner {
+    font-weight: 500;
+}
+
+.answner p {
+    margin-bottom: -15px;
+}
+
+.redes-sociais h1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.contato h2 {
+    margin-bottom: -20px;
+}
+
+.btn-twitter, .btn-github, .btn-linkedin {
+    border-radius: 100px;
+    background: var(--btn-bg);
+    color: var(--base-color);
+    font-weight: 300;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    margin: 10 0 10 0px;
+  }
+  
+  .btn-twitter:hover {
+    color: var(--text-color);
+    font-weight: 700;
+    background: #1D9BF0;
+  }
+
+  .btn-github:hover {
+    color: var(--text-color);
+    font-weight: 700;
+    background: #6e5494;
+  }
+
+.btn-linkedin:hover {
+    color: var(--text-color);
+    font-weight: 700;
+    background: #0077B5;
+}
+  
+  .btn-twitter:active, .btn-github:active, .btn-linkedin:active {
+    transform: scale(0.9);
+  }
+  
+  .buttons span {
+    font-weight: 500;
+    padding-right: 5px;
+    
+  }

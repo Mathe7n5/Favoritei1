@@ -1,0 +1,61 @@
+/* :root {
+    --base-color: white;
+    --base-bg: #edeceb;
+    --text-color: #2e2e2e;
+    --shadow: #807f7f;
+    --product-bg: #cccaca;
+}  
+
+.banner {
+    text-align: left;
+    background-color: var(--base-bg);
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.content .icon-large {
+    margin-right: 20px;
+}
+
+.content .icon-large img {
+    width: 400px;
+    height: auto;
+}
+
+.content .icon img {
+    width: 120px;
+    height: auto;
+}
+
+.content .icon {
+    margin: 0 10px;
+}
+
+.content .text {
+    max-width: 400px;
+}
+
+.content .text h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--text-color);
+}
+
+.content .text p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: var(--text-color);
+} */
