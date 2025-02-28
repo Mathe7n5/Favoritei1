@@ -1,4 +1,4 @@
-# Favoritei! - Versão 1
+# Favoritei! - Versão Beta
 
 Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos favoritos de diferentes lojas, oferecendo uma interface intuitiva e recursos práticos para organização e compra.
 
