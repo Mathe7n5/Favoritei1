@@ -5,21 +5,18 @@ Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos
 ## Recursos e Funcionalidades
 
 ### Principais Funcionalidades
-
 - **Gerenciamento de produtos favoritos**: Adicione produtos de diversas lojas e organize-os conforme sua necessidade.
 - **Separação de produtos por loja**: Cada produto é classificado de acordo com sua respectiva loja, tornando a navegação mais organizada.
 - **Fixar itens desejados**: Agora é possível fixar produtos importantes para fácil acesso.
 - **Botão de compra funcional**: O botão de compra redireciona corretamente para o site do produto.
+- **Responsividade aprimorada**: O site agora se adapta a diferentes dispositivos e tamanhos de tela.
 
 ### Melhorias na Interface
-
 - **Novo layout e cores**: O site recebeu um novo esquema de cores, agora definido no `:root`, facilitando futuras personalizações.
 - **Ícones Google Fonts**: Todos os ícones foram substituídos por SVGs do Google Fonts, garantindo mais leveza e padronização visual.
-- **Responsividade aprimorada**: O site agora se adapta a diferentes dispositivos e tamanhos de tela.
 - **Footer aprimorado**: Pequenas melhorias foram aplicadas ao rodapé para uma melhor experiência do usuário.
 
 ### Navegação e Experiência do Usuário
-
 - **Botões aprimorados**:
   - Botão de **excluir** com aviso de confirmação antes da exclusão.
   - Botões de **comprar** e **excluir** com efeitos visuais.
@@ -29,7 +26,6 @@ Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos
 - **Efeito no botão "Clique Aqui"**: Adicionado um efeito visual ao botão para maior destaque.
 
 ### Páginas e Integrações
-
 - **Novas páginas adicionadas**:
   - Página de **Login**
   - Página de **Registro**
@@ -37,10 +33,9 @@ Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos
 - **Redes sociais**: Links das redes sociais foram implementados corretamente e agora redirecionam para os locais desejados.
 
 ## Como Executar o Projeto
-
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/mathe7n5/favoritei1.git
+   git clone https://github.com/seu-usuario/favoritei.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
@@ -49,21 +44,15 @@ Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos
 3. Abra o arquivo `index.html` em seu navegador ou utilize um servidor local para melhor experiência.
 
 ## Tecnologias Utilizadas
-
 - **HTML5**
 - **CSS3**
 - **JavaScript**
 - **Google Fonts (ícones)**
 
 ## Contribuições
-
 Sinta-se à vontade para abrir uma issue ou enviar um pull request caso queira sugerir melhorias!
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Com essa versão, o **Favoritei!** se torna uma ferramenta ainda mais completa para organizar e gerenciar seus produtos favoritos. 🚀
+Com esta primeira versão, o **Favoritei!** se torna uma ferramenta completa para organizar e gerenciar seus produtos favoritos. 🚀
 
