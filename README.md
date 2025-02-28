@@ -35,7 +35,7 @@ Favoritei! é um projeto desenvolvido para facilitar o gerenciamento de produtos
 ## Como Executar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/favoritei.git
+   git clone https://github.com/mathe7n5/favoritei1.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
